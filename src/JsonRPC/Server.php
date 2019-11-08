@@ -216,7 +216,7 @@ class Server
     public function authentication(array $users)
     {
         if (! isset($users[$this->getUsername()]) || $users[$this->getUsername()] !== $this->getPassword()) {
-            $this->sendAuthenticationFailureResponse();
+            $this->sendAuthenticationFailureResponse($this->payload);
         }
 
         return $this;
