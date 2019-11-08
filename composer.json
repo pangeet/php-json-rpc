@@ -1,7 +1,7 @@
 {
-    "name": "rambler-digital-solutions/php-json-rpc",
+    "name": "pangeet/php-json-rpc",
     "description": "Simple Json-RPC client/server library that just works",
-    "homepage": "https://github.com/rambler-digital-solutions/php-json-rpc",
+    "homepage": "https://github.com/pangeet/php-json-rpc",
     "type": "library",
     "license": "MIT",
     "authors": [
